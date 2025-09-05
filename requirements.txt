@@ -1,0 +1,10 @@
+streamlit
+pandas
+plotly
+sqlalchemy
+psycopg2-binary
+openai
+python-dotenv
+chromadb
+plotly
+plotly-express
