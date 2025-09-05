@@ -1,11 +1,10 @@
 pysqlite3-binary
+chromadb
 streamlit
 pandas
 plotly
+plotly-express
 sqlalchemy
 psycopg2-binary
 openai
 python-dotenv
-chromadb
-plotly
-plotly-express
