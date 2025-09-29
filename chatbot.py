@@ -15,7 +15,7 @@ from datetime import datetime, timedelta
 load_dotenv()
 
 # ------------------ Groq API Setup ------------------
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+GROQ_API_KEY = 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
 if not GROQ_API_KEY or GROQ_API_KEY == "your_groq_api_key_here":
     raise ValueError("⚠ Please set GROQ_API_KEY environment variable. Get it from https://console.groq.com/keys")
 
@@ -384,7 +384,7 @@ def create_3d_scatter_plot(df: pd.DataFrame, config: dict):
     return fig
 
 # ------------------ Postgres Setup ------------------
-PG_URI = "postgresql+psycopg2://postgres:Jhaveri%401117@localhost:5432/floatchat_db"
+PG_URI = "postgresql+psycopg2://postgres:Bliss%402005@localhost:5432/floatchat_db"
 engine = create_engine(PG_URI)
 
 def fetch_sample(engine):
@@ -409,7 +409,7 @@ def get_table_schema(engine, table_name):
 
 # ------------------ Chroma Setup ------------------
 def get_chroma_client():
-    return chromadb.PersistentClient(path=r"D:\Hackathons\SIH\Prototype\chroma_db")
+    return chromadb.PersistentClient(path=r"C:\Users\Kruttika\OneDrive\Desktop\Kruttika\SIH\FloatChat\chroma_db")
 
 def fetch_from_chroma(client, collection_name, query):
     try:
