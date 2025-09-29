@@ -15,7 +15,7 @@ from datetime import datetime, timedelta
 load_dotenv()
 
 # ------------------ Groq API Setup ------------------
-GROQ_API_KEY = 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
+GROQ_API_KEY = "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"
 if not GROQ_API_KEY or GROQ_API_KEY == "your_groq_api_key_here":
     raise ValueError("⚠ Please set GROQ_API_KEY environment variable. Get it from https://console.groq.com/keys")
 
